@@ -5,7 +5,7 @@
 1. Fork the repository.
 2. Clone the repository.
 3. Navigate to the cloned repository.
-4. Install project dependencies with `npm i`
+4. Install the project dependencies with <pre><code>npm i</code></pre>
 5. Start the server using <pre><code>node index.js</code></pre>
 
 ## Rules
