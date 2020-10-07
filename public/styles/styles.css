@@ -16,6 +16,43 @@
     position: relative;
     top: 100px;
     left: 50px;
+    
+}
+
+h1{
+    width: 17ch;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typewriterHeading 2s steps(19) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal , cursorDisappear 1s steps(5) 3s infinite normal;
+}
+
+h2{
+    width: 47ch;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typewriterSubHeading 4s steps(47) 4s 1 normal both, blinkTextCursor 500ms steps(44) 3s infinite normal, cursorDisappear 1s steps(5) 9s infinite normal;
+}
+
+@keyframes typewriterHeading{
+    from{width: 0ch;}
+    to{width: 17ch;}
+}
+
+@keyframes typewriterSubHeading{
+    from{width: 0ch;}
+    to{width: 47ch;}
+}
+
+@keyframes blinkTextCursor{
+    from{border-right-color: blue;}
+    to{border-right-color: transparent;}
+}
+
+@keyframes cursorDisappear{
+    from{border-right-color: transparent;}
+    to{border-right-color: transparent;}
 }
 
 h2 {   
