@@ -1,0 +1,30 @@
+img {
+    height: 50%;
+    width: 50%;
+    float: right; 
+}
+
+.header {
+    color: black;
+    font-family:'Bebas Neue', cursive;
+    font-size: 6rem;
+    position: relative;
+    /* top: 100px; */
+    /* left: 50px; */
+}
+
+h2 {
+    
+    position: absolute;
+    top: 300px;
+    left: 50px;   
+}
+
+div {
+    
+}
+
+body {
+    
+    font-famlily: 'Bebas Neue', cursive;
+}

@@ -1,8 +1,12 @@
-<h1>
-    Hello
-    {{#if name}}
-    {{name}}
-    {{else}}
-    Stranger
-    {{/if}}
-</h1>
+{{> hero}}
+<div class="container">
+    <section class="row section">
+        {{> members}}
+    </section>
+    <section class="row section">
+        {{> projects}}
+    </section>
+</div>
+<footer>
+    {{> footer}}
+</footer>
