@@ -5,8 +5,12 @@ const PORT = process.env.PORT || 8080;
 const indexRouter = require("./routes/index.js");
 const logger = require('morgan')
 
-app.engine("handlebars", handlebars());
-app.set("view engine", "handlebars");
+app.set("view engine", "hbs");
+app.engine("hbs", handlebars({
+    layoutsDir: __dirname+'/views/layouts',
+    extname:'hbs'
+}));
+
 app.use(express.static("public"));
 
 app.use(logger('dev'))
