@@ -1,0 +1,7 @@
+function comeToTheDarkside() {
+  document.documentElement.style.filter = 'invert(1) hue-rotate(180deg)';
+  document.body.querySelectorAll('img, picture, video')
+  .forEach(el => el.style.filter = 'invert(1) hue-rotate(180deg)');
+}
+
+comeToTheDarkside();
