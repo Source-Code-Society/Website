@@ -6,7 +6,7 @@
 2. Clone the repository.
 3. Navigate to the cloned repository.
 4. Install the project dependencies with <pre><code>npm i</code></pre>
-5. Start the server using <pre><code>node index.js</code></pre>
+5. Start the development server using <pre><code>npm run dev</code></pre>
 
 ## Rules
 
